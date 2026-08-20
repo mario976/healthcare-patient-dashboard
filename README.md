@@ -42,9 +42,8 @@ Hospitals generate huge volumes of admissions, billing, and clinical data — bu
 
 ## Files
 
-- `Healthcare_Dashboard.pbix` — full Power BI report (open with Power BI Desktop)
-- `dashboard_screenshot.png` — static preview of the dashboard
-- `/data` — dataset used (raw and cleaned versions, if shared)
+- `Hospital Dashboard.pbix` — full Power BI report (open with Power BI Desktop)
+- `Dashboard_Screenshot.png` — static preview of the dashboard
 
 ## Notes
 
