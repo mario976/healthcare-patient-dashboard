@@ -2,7 +2,7 @@
 
 An interactive Power BI dashboard analyzing 55,500+ hospital admission records to surface trends in patient demographics, billing, clinical outcomes, and operational load.
 
-![Dashboard Preview](dashboard_screenshot.png)
+![Dashboard Preview](Dashboard Screenshot.png)
 
 ## Overview
 
