@@ -20,9 +20,10 @@ Hospitals generate huge volumes of admissions, billing, and clinical data — bu
 ## Process
 
 1. **Data Cleaning (Excel)** — Cleaned and validated the raw dataset: standardized date formats, checked for duplicate/inconsistent entries, and prepared the file for a stable load into Power BI.
-2. **Data Modeling (Power BI / Power Query)** — Built calculated columns (e.g., Age Group bins) and confirmed data types for reliable time intelligence and filtering.
-3. **DAX Measures** — Wrote a dedicated measures table (Total Patients, Total Admissions, Average Billing, Emergency Admissions %, Length of Stay, and ranking logic for Top 5 Medications) to keep the model clean and reusable.
-4. **Dashboard Design** — Designed a single-page dashboard with a custom color theme, KPI summary row, dynamic field-parameter buttons (switch the demographic breakdown between Age Group / Blood Type / Medical Condition on the same chart), and a date-range slicer for time filtering.
+2. **Data Exploration & Aggregation (SQL)** — Used SQL to further clean and aggregate the dataset, running queries to check data quality, group records by key dimensions (condition, admission type, insurance provider), and surface early trends in admissions and billing before moving into visualization.
+3. **Data Modeling (Power BI / Power Query)** — Built calculated columns (e.g., Age Group bins) and confirmed data types for reliable time intelligence and filtering.
+4. **DAX Measures** — Wrote a dedicated measures table (Total Patients, Total Admissions, Average Billing, Emergency Admissions %, Length of Stay, and ranking logic for Top 5 Medications) to keep the model clean and reusable.
+5. **Dashboard Design** — Designed a single-page dashboard with a custom color theme, KPI summary row, dynamic field-parameter buttons (switch the demographic breakdown between Age Group / Blood Type / Medical Condition on the same chart), and a date-range slicer for time filtering.
 
 ## Key Insights
 
@@ -35,6 +36,7 @@ Hospitals generate huge volumes of admissions, billing, and clinical data — bu
 ## Tools Used
 
 - **Microsoft Excel** — initial data cleaning and validation
+- **SQL** — data cleaning, aggregation, and exploratory trend analysis
 - **Power BI Desktop** — data modeling, DAX, dashboard design
 - **DAX** — custom measures, dynamic ranking (Top N), field parameters
 
